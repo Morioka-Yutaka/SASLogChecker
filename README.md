@@ -18,6 +18,9 @@ c= 10/0;
 keep y;
 run;
 ~~~
+👆If you run the above code, the log window will look like below
+
+<img width="436" height="251" alt="Image" src="https://github.com/user-attachments/assets/9ce51e5e-26a8-42f0-97df-587e81f2751a" />
 
 Submit,  %interact_logchk;
 ~~~sas  
