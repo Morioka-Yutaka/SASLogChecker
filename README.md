@@ -38,8 +38,11 @@ Submit,  %interact_logchk;
 <br>
 <img width="221" height="114" alt="Image" src="https://github.com/user-attachments/assets/5a6a9e63-10d3-425b-9652-196ce7e38924" />
 <br>
-<br>
 👆If there is no Issue, you will see a message box like this
-
-
+<br>
+<br>
+<br>
+<br>
 <img width="494" height="102" alt="Image" src="https://github.com/user-attachments/assets/4b416d57-6353-4125-9fd3-29fe0c5b5cd7" />
+<br>
+<br>
