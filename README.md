@@ -67,6 +67,6 @@ Example Usage:
 
 <br>
 
-# English-Japanese contrast table and extracted keywords for noteworthy notes
-# 注目すべきNoteについて英語と日本語の対照表と抽出キーワードについて
+# English-Japanese contrast table and extracted keywords for noteworthy notes（注目すべきNoteについて英語と日本語の対照表と抽出キーワードについて）
+
 
