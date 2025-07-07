@@ -32,5 +32,5 @@ Submit,  %interact_logchk;
 <img width="452" height="108" alt="Image" src="https://github.com/user-attachments/assets/777915eb-9085-4576-b0c0-6568bc43cfe4" />
 <br>
 <br>
-日本語環境でもそのまま動くのでご安心を．
+日本語環境でもそのまま動くのでご安心を．<br>
 <img width="554" height="96" alt="Image" src="https://github.com/user-attachments/assets/64476e2b-72fa-4dc5-ad10-6d3b8c2afdec" />
