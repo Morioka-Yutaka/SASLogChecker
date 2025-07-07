@@ -68,9 +68,8 @@ Example Usage:
 <br>
 
 # English-Japanese contrast table and extracted keywords for noteworthy notes（注目すべきNoteについて英語と日本語の対照表と抽出キーワードについて）
-<html>
-<body>
-<!--StartFragment--><google-sheets-html-origin><style type="text/css"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+
+
 No | Issue Appearance Sample Codes | Message(Japanese) | Message(English) | Target keywords | Target keywords(japanese) | Target keywords to Hex.(japanese)
 -- | -- | -- | -- | -- | -- | --
 1 | data x;x= 1+.;run; | 欠損値を含んだ計算により、以下の箇所で欠損値が生成されました。 | Missing values were generated as a result of performing an operation on missing values. | Missing values | 欠損値を含んだ計算 | 8C8791B9926C82F08ADC82F182BE8C768E5A
@@ -115,7 +114,4 @@ No | Issue Appearance Sample Codes | Message(Japanese) | Message(English) | Targ
 40 | --- | 予約名 |   |   | 予約名 | 975C96F196BC
 41 | --- | デフォルト |   |   | デフォルト | 836683748348838B8367
 
-<!--EndFragment-->
-</body>
-</html>
 
