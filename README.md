@@ -34,3 +34,8 @@ Submit,  %interact_logchk;
 <br>
 日本語環境でもそのまま動くのでご安心を．<br>
 <img width="554" height="96" alt="Image" src="https://github.com/user-attachments/assets/64476e2b-72fa-4dc5-ad10-6d3b8c2afdec" />
+<br>
+<br>
+<img width="221" height="114" alt="Image" src="https://github.com/user-attachments/assets/5a6a9e63-10d3-425b-9652-196ce7e38924" />
+👆
+If there is no Issue, you will see a message box like this
