@@ -4,8 +4,9 @@ SAS log checker for extracting ERRORs, WARNINGs, and notable NOTEs — supports 
 ![SASLogChecker](./SASLogChecker_small.png)  
 
 
-# SASLogChecker
-
+# %interact_logchk
+Interactive Logchk..<br>
+Extracts and displays ERROR, WARNING, and noteworthy NOTEs currently displayed in the log window.<br>
 ~~~sas  
 data a;
 length x 8.;
@@ -18,9 +19,9 @@ keep y;
 run;
 ~~~
 
-Submit, logchk;
+Submit,  %interact_logchk;
 ~~~sas  
-%logchk;
+%interact_logchk;
 ~~~
 <img width="209" height="116" alt="Image" src="https://github.com/user-attachments/assets/e9bef2c0-4626-4656-8d98-8f358a7774a9" />
 .<br>
