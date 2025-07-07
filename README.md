@@ -66,3 +66,7 @@ Example Usage:
 <img width="1583" height="442" alt="Image" src="https://github.com/user-attachments/assets/791be12d-cc9b-406a-9ba6-c74762d298d9" />
 
 <br>
+
+# English-Japanese contrast table and extracted keywords for noteworthy notes
+# 注目すべきNoteについて英語と日本語の対照表と抽出キーワードについて
+
