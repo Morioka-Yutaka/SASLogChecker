@@ -41,10 +41,9 @@ Submit,  %interact_logchk;
 👆If there is no Issue, you will see a message box like this
 <br>
 <br>
-<br>
-<br>
 <img width="494" height="102" alt="Image" src="https://github.com/user-attachments/assets/4b416d57-6353-4125-9fd3-29fe0c5b5cd7" />
 <br>
 <br>
 <img width="395" height="365" alt="Image" src="https://github.com/user-attachments/assets/50fef62e-d188-40b0-93dd-4557c5242c53" />
-👆
+<br>
+👆You can create a new button on the SAS toolbar and tie the macro execution to a switch, so you can check the log with a single click!
