@@ -60,3 +60,6 @@ Parameters:.
 Example Usage:                                               
  %logcht2directry(folder=C:\logs, out_folder=C:\output);
 ~~~
+
+<img width="372" height="86" alt="Image" src="https://github.com/user-attachments/assets/4cce3de0-7623-47a0-897c-e7abfc3dcdac" />
+<br>
