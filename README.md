@@ -122,7 +122,7 @@ The package is built on top of **SAS Packages framework(SPF)** created by Bartos
 For more on SAS Packages framework, see [SASPAC](https://github.com/yabwon/SAS_PACKAGES).<br>
 You can also find more SAS Packages(SASPAC) in [GitHub](https://github.com/SASPAC)<br>
 
-#How to use SASPACer? (quick start)
+# How to use SASPACer? (quick start)
 Create directory for your packages and assign a fileref to it.
 ~~~sas      
 filename packages "\path\to\your\packages";
