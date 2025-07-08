@@ -136,14 +136,12 @@ Enable the SAS Packages Framework (if you have not done it yet):
 
 When you have SAS Packages Framework enabled, run the following to install and load the package:
 
- 
-/* Install and load SASPACer */
+
 ~~~sas      
+/* Install and load SASPACer */
 %installPackage(SASPACer, sourcePath=https://github.com/Nakaya-Ryo/SASPACer/raw/main/)   /* Install SASPACer to your place */
 %loadPackage(SASPACer)
- ~~~
 /* Enjoy SASPACer😄 */
-~~~sas      
 %ex2pac(
   excel_file=C:\Temp\simple_example.xlsx,
   package_location=C:\Temp\SAS_PACKAGES\packages,
@@ -152,4 +150,6 @@ When you have SAS Packages Framework enabled, run the following to install and l
 ~~~
 You can learn from the following training materials by Bartosz Jablonski for source files and folders structure of SAS packages.
 My first SAS Package -a How To
+https://github.com/yabwon/SAS_PACKAGES/blob/main/SPF/Documentation/SAS(r)%20packages%20-%20the%20way%20to%20share%20(a%20how%20to)-%20Paper%204725-2020%20-%20extended.pdf
 SAS Packages - The Way To Share (a How To)
+https://github.com/yabwon/SAS_PACKAGES/blob/main/SPF/Documentation/SAS(r)%20packages%20-%20the%20way%20to%20share%20(a%20how%20to)-%20Paper%204725-2020%20-%20extended.pdf
