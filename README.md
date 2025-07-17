@@ -118,7 +118,7 @@ No | Issue Appearance Sample Codes | Message(Japanese) | Message(English) | Targ
 0.1.0(07july2025): Initial version<br>
 
 ## What is SAS Packages?  
-The package is built on top of SAS Packages framework(SPF) developed by Bartosz Jablonski. 
+The package is built on top of **SAS Packages framework(SPF)** developed by Bartosz Jablonski. 
 For more information about SAS Packages framework, see [SAS_PACKAGES](https://github.com/yabwon/SAS_PACKAGES).  
 You can also find more SAS Packages(SASPACs) in [SASPAC](https://github.com/SASPAC).
 
