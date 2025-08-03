@@ -48,7 +48,7 @@ Submit,  %interact_logchk;
 <br>
 👆You can create a new button on the SAS toolbar and tie the macro execution to a switch, so you can check the log with a single click!
 
-# %logchk2directry
+# %logchk2directory
  Scans all log files (*.log or specified extension) in a  given folder, searches for errors, warnings, and specific keywords, and outputs a summary Excel file.
  ~~~sas     
 Parameters:.                                              
@@ -58,7 +58,7 @@ Parameters:.
  ~~~
 ~~~sas                                                               
 Example Usage:                                               
- %logcht2directry(folder=C:\logs, out_folder=C:\output);
+ %logchk2directory(folder=C:\logs, out_folder=C:\output);
 ~~~
 
 <img width="372" height="86" alt="Image" src="https://github.com/user-attachments/assets/4cce3de0-7623-47a0-897c-e7abfc3dcdac" />
