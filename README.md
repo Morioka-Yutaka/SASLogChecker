@@ -115,6 +115,7 @@ No | Issue Appearance Sample Codes | Message(Japanese) | Message(English) | Targ
 41 | --- | デフォルト |   |   | デフォルト | 836683748348838B8367
 
 # version history<br>
+0.1.1(04Auguat2025): Macro name changed to %logchk2directory (old name %logchk2directry)<br>
 0.1.0(07july2025): Initial version<br>
 
 ## What is SAS Packages?  
