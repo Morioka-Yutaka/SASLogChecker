@@ -1,7 +1,7 @@
 # SASLogChecker
 SAS log checker for extracting ERRORs, WARNINGs, and notable NOTEs — supports interactive and directory-wide runs.
 
-<img width="350" height="350" alt="Image" src="https://github.com/user-attachments/assets/fcc404a6-a654-4a01-90ba-6b7607752688" /> 
+<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/fcc404a6-a654-4a01-90ba-6b7607752688" /> 
 
 
 # %interact_logchk
