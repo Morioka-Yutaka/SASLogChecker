@@ -1,9 +1,9 @@
 # SASLogChecker
-SASLogChecker is a collection of SAS macros designed to efficiently scan and review SAS log files. It automatically detects and summarizes key messages such as ERROR, WARNING, and potentially critical NOTE messages that often require attention. The tool can be used both interactively — for example, by running %interact_logchk to check the current log window — and in batch mode to process all log files in a directory using %logchk2directory(folder=…, out_folder=…), generating summary reports such as Excel outputs.
+SASLogChecker is a collection of SAS macros designed to efficiently scan and review SAS log files.  
+It automatically detects and summarizes key messages such as ERROR, WARNING, and potentially critical NOTE messages that often require attention.   
+The tool can be used both interactively — for example, by running %interact_logchk to check the current log window — and in batch mode to process all log files in a directory using %logchk2directory(folder=…, out_folder=…), generating summary reports such as Excel outputs.  
 
 The package is built with multilingual environments in mind, supporting both English and Japanese log messages. Users can define keyword lists to match and extract important messages, including Japanese NOTE statements (e.g., “変数 X は初期化されていません” / “Variable X is not initialized”), and view them side by side in a structured summary.
-
-By automatically distinguishing between harmless log messages and those that indicate real issues, SASLogChecker helps users streamline log reviews, accelerate debugging, and improve the reliability of SAS programs — making it especially useful for clinical data analysis, regulatory submissions, and production environments where log quality control is essential.
 
 <img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/fcc404a6-a654-4a01-90ba-6b7607752688" /> 
 
