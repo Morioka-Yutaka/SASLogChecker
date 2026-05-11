@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_logchk_summary_counts",
+  "source_file": "SASLogChecker/06_macros/interact_logchk.sas",
+  "source_blob_sha": "11a7b58ff31efe7c82332d5bf40ddbb9a613b904",
+  "source_commit": "4827da7085c7e3256510e2a9493583cc14a4cfd4",
+  "tier": "real_data",
+  "notes": "Builds the per-category summary the macro's tail produces. Uses PROC SQL ... INTO :__obs_e / :__obs_w / :__obs_n / :__obs_i — the exact form interact_logchk uses (lines 232-239) — to count flagged rows by category, then %PUT each count and the dm-post message body the macro would popup in the SAS GUI. PROC FREQ provides the cross-check. From the inline 11-row sample: ERROR=3, WARNING=2, NOTE=5, INFO=1, total=11."
+}

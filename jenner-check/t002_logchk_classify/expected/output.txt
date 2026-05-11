@@ -1,0 +1,25 @@
+                                      interact_logchk-style prefix categorization                                       
+
+                                                                                     Log line  Category
+NOTE: Variable Y is uninitialized.                                                             NOTE
+NOTE: Missing values were generated as a result of performing an operation on missing values.  NOTE
+NOTE: DATA statement used (Total process time):                                                NOTE
+NOTE: There were 5 observations read from the data set WORK.A.                                 NOTE
+ERROR: File WORK.MYDATA.DATA does not exist.                                                   ERROR
+WARNING: Division by zero detected at line 5 column 8.                                         WARNING
+INFO: The variable y on data set WORK.X will be overwritten by data set WORK.Y.                INFO
+1                                                          The SAS System
+NOTE: SAS went to a new line when INPUT statement reached past the end of a line.              NOTE
+NOTE: PROCEDURE SORT used (Total process time):                                                NOTE
+
+                                  Category counts (incl. uncategorized chatter lines)                                   
+
+                                                   The FREQ Procedure
+
+Category    Frequency
+----------------------
+                    1
+ERROR               1
+INFO                1
+NOTE                6
+WARNING             1

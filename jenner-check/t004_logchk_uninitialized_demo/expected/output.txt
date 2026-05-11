@@ -1,0 +1,10 @@
+                                         interact_logchk on the README example                                          
+
+LINE  Category                        Hit keyword                                                                                                                                      Log line
+   1  NOTE      is uninitialized                   NOTE: Variable y is uninitialized.
+   2  NOTE      Missing values                     NOTE: Missing values were generated as a result of performing an operation on missing values.
+   3  NOTE      Division by zero                   NOTE: Division by zero detected at line 6 column 5.
+   4  NOTE      Mathematical operations could not  NOTE: Mathematical operations could not be performed at the following places. The results of the operations have been set to missing values.
+
+                                         interact_logchk on the README example                                          
+

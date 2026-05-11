@@ -1,0 +1,13 @@
+                               LogCheck_Result equivalent (matched + ERROR/WARNING rows)                                
+
+   FileName  LINE  Category                              Hit keyword                                                                                     Hit record
+trial01.log     2  NOTE      is uninitialized                         NOTE: Variable Y is uninitialized.
+trial01.log     3  NOTE      Missing values                           NOTE: Missing values were generated as a result of performing an operation on missing values.
+trial01.log     4  NOTE      Character values have been converted to  NOTE: Character values have been converted to numeric values at the places given by:
+trial01.log     5  ERROR     ERROR,does not exist                     ERROR: File WORK.MYDATA.DATA does not exist.
+trial01.log     6  WARNING   WARNING,Division by zero                 WARNING: Division by zero detected at line 5 column 8.
+trial01.log     7  NOTE      reached past the end of a line           NOTE: SAS went to a new line when INPUT statement reached past the end of a line.
+trial01.log    11  ERROR     ERROR,_ERROR_=1                          ERROR: _ERROR_=1
+
+                               LogCheck_Result equivalent (matched + ERROR/WARNING rows)                                
+

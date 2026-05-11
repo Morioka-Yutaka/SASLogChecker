@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_logchk_term_dictionary",
+  "source_file": "SASLogChecker/06_macros/logchk2directory.sas",
+  "source_blob_sha": "ecb1b1d7d45bdf7ad57fb93f617f0df38c3a7fb6",
+  "source_commit": "4827da7085c7e3256510e2a9493583cc14a4cfd4",
+  "tier": "real_data",
+  "notes": "Extracts the English-side keyword-dictionary build from the logchk2directory macro: a DATA step emitting one row per flagged term (with two intentional duplicates from the original), followed by a strip/NODUPKEY pass. Confirms PROC SORT NODUPKEY collapses the 31 raw rows to 29 distinct terms; the dictionary is then ready to feed the keyword-matching phase exercised in t003."
+}

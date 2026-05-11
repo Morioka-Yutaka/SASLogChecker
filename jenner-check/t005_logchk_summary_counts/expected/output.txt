@@ -1,0 +1,25 @@
+                                          interact_logchk: per-category counts                                          
+
+                                                   The FREQ Procedure
+
+CATE       Frequency    Percent
+--------------------------------
+ERROR              3     27.27
+INFO               1      9.09
+NOTE               5     45.45
+WARNING            2     18.18
+                                                    Flagged log rows                                                    
+
+Category                                                                         Text
+ERROR     File WORK.MYDATA.DATA does not exist.
+ERROR     File WORK.LOOKUP.DATA does not exist.
+ERROR     _ERROR_=1
+WARNING   Division by zero detected at line 5 column 8.
+WARNING   Apparent invocation of macro XYZ not resolved.
+NOTE      Variable Y is uninitialized.
+NOTE      Missing values were generated.
+NOTE      Character values have been converted to numeric values.
+NOTE      Numeric values have been converted to character values.
+NOTE      SAS went to a new line when INPUT statement reached past the end of a line.
+INFO      The variable y on data set WORK.X will be overwritten by data set WORK.Y.
+

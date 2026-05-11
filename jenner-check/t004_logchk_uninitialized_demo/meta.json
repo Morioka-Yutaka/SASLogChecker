@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_logchk_uninitialized_demo",
+  "source_file": "README.md",
+  "source_blob_sha": "(README snippet — see source_file)",
+  "source_commit": "4827da7085c7e3256510e2a9493583cc14a4cfd4",
+  "tier": "real_data",
+  "notes": "End-to-end run of the README's canonical example: first execute the two DATA steps the README presents as the trigger code (creates a, then b reading set a with c=10/0 and keep y), then replay the 4 NOTE lines the README documents as the expected output and route them through the interact_logchk prefix-classify + keyword-match pipeline. Output: 4 flagged rows — is uninitialized, Missing values, Division by zero, Mathematical operations could not — matching the README's stated behavior exactly."
+}

@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_logchk_keyword_match",
+  "source_file": "SASLogChecker/06_macros/logchk2directory.sas",
+  "source_blob_sha": "ecb1b1d7d45bdf7ad57fb93f617f0df38c3a7fb6",
+  "source_commit": "4827da7085c7e3256510e2a9493583cc14a4cfd4",
+  "tier": "real_data",
+  "notes": "Reproduces the keyword-scan output shape (fname / line / cate / hit / record) the macro writes to its Excel summary. The original iterates the dictionary via a multidata hash and FIND_NEXT; this bundle uses a PROC SQL cross-join + INDEX(strip(record), strip(term)) to surface the same matches, then collapses with CATX(',', ...) by line. From a 12-line log sample with 13 dictionary terms, 7 rows are kept: 4 NOTE rows with a matched keyword, plus 2 ERROR rows and 1 WARNING row (kept unconditionally and with their category prepended to the hit list)."
+}

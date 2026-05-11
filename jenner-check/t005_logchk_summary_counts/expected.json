@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-05-11T18:27:00Z",
+  "_captured_run_id": "r_019e16c886f5794390bd380eb7ba95ea",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Macro variable __OBS_E = 3",
+    "NOTE: Macro variable __OBS_W = 2",
+    "NOTE: Macro variable __OBS_N = 5",
+    "NOTE: Macro variable __OBS_I = 1",
+    "NOTE: dm-post message would be: ERROR:[3]  WARNING:[2]  NOTE:[5]"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

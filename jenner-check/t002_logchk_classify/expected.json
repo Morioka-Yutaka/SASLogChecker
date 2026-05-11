@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-05-11T18:22:00Z",
+  "_captured_run_id": "r_019e16c5cb2778a19f7d8dd4ceaa1551",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote classified (10 rows, 2 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 2 variables",
+    "NOTE: PROC FREQ"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

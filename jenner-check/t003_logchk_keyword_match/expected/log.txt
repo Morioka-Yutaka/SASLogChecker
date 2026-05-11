@@ -1,0 +1,75 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 200.
+NOTE: DATA term
+
+
+NOTE: Wrote term (13 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA term
+
+
+NOTE: Read 13 rows from term.
+NOTE: Wrote term (13 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=term
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 13 rows from term.
+NOTE: Wrote term (13 rows, 1 columns).
+NOTE: NOEQUALS option acknowledged. Note: Jenner uses stable sort, so original order of ties is always preserved.
+NOTE: PROC SORT statement used.
+NOTE: DATA raw_log
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote raw_log (12 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA classified
+
+
+NOTE: Read 12 rows from raw_log.
+NOTE: Wrote classified (12 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table hits created.
+NOTE: PROC SQL statement used.
+NOTE: DATA hits_per_line
+
+
+NOTE: Read 7 rows from hits.
+NOTE: Wrote hits_per_line (7 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table summary created.
+NOTE: PROC SQL statement used.
+NOTE: DATA summary
+
+
+NOTE: Read 7 rows from summary.
+NOTE: Wrote summary (7 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=summary
+
+NOTE: PROC PRINT completed: 7 observations printed, 5 variables
+NOTE: PROC SQL 
+
+NOTE: Macro variable N_KEPT = 7
+NOTE: PROC SQL statement used.
+NOTE: SASLogChecker matched/kept rows = 7

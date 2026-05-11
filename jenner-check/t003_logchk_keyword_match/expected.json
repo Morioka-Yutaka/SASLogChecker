@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-05-11T18:24:00Z",
+  "_captured_run_id": "r_019e16c6b4d37670b62301a2a9c1377b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table hits created.",
+    "NOTE: Wrote hits_per_line (7 rows, 5 columns).",
+    "NOTE: Wrote summary (7 rows, 5 columns).",
+    "NOTE: Macro variable N_KEPT = 7",
+    "NOTE: SASLogChecker matched/kept rows = 7"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

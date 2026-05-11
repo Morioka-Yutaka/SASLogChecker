@@ -1,0 +1,34 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA flagged
+
+NOTE: Processing inline DATALINES (11 lines)
+
+NOTE: Read 11 rows from DATALINES.
+NOTE: Wrote flagged (11 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Macro variable __OBS = 11
+NOTE: Macro variable __OBS_E = 3
+NOTE: Macro variable __OBS_W = 2
+NOTE: Macro variable __OBS_N = 5
+NOTE: Macro variable __OBS_I = 1
+NOTE: PROC SQL statement used.
+NOTE: SASLogChecker summary --
+NOTE: Total flagged rows : 11
+NOTE: ERROR   count       : 3
+NOTE: WARNING count       : 2
+NOTE: NOTE    count       : 5
+NOTE: INFO    count       : 1
+NOTE: dm-post message would be: ERROR:[3]  WARNING:[2]  NOTE:[5]
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_cate.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC PRINT data=flagged
+
+NOTE: PROC PRINT completed: 11 observations printed, 2 variables

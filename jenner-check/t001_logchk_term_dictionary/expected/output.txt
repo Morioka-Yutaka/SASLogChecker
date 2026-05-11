@@ -1,0 +1,35 @@
+                                   Distinct flagged-term dictionary (after NODUPKEY)                                    
+
+                                             Term  KEY
+A CASE expression has no ELSE clause                 1
+Character values have been converted to              1
+Division by zero                                     1
+Invalid                                              1
+LOSTCARD                                             1
+Mathematical operations could not                    1
+Missing values                                       1
+NOEXEC                                               1
+Numeric values have been converted to                1
+Processing on disk occurred during summarization.    1
+The meaning of an identifier                         1
+Unreferenced label                                   1
+WHERE clause has been replaced                       1
+_ERROR_=1                                            1
+definite                                             1
+discarded because neither                            1
+does not exist                                       1
+have been thinned                                    1
+infinite likelihood i                                1
+is uninitialized                                     1
+lines were truncated                                 1
+log axis cannot support                              1
+outside the axis range                               1
+reached past the end of a line                       1
+repeats of BY values                                 1
+stopped due to looping                               1
+too small for                                        1
+was not found                                        1
+will be overwritten by data set                      1
+
+                                   Distinct flagged-term dictionary (after NODUPKEY)                                    
+

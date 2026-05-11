@@ -1,0 +1,27 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA raw_log
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote raw_log (10 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA classified
+
+
+NOTE: Read 10 rows from raw_log.
+NOTE: Wrote classified (10 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=classified
+
+NOTE: PROC PRINT completed: 10 observations printed, 2 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_cate.spec.json
+NOTE: PROC FREQ statement used.
