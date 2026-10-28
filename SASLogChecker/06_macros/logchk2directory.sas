@@ -2,6 +2,7 @@
 
 Macro Name : logchk2directory
 Authoer: Yutaka Morioka
+Contributors:Dave Kestner
 License : MIT
 Overview:
 Scans all log files (*.log or specified extension) in a
@@ -14,10 +15,8 @@ or UTF-8.
 garbled text and ensure matching regardless of session
 encoding.
 Important Notes:
-- This macro is designed for Windows only.
-The file path delimiter "\" and path handling logic
-(e.g., KSCAN, KREVERSE) assume a Windows environment.
-It will not work as-is on Unix/Linux/MacOS systems.
+- This macro is designed for Windows and Linux .
+
 Parameters:
 folder     = Path to the folder containing log files
 out_folder = Path to the folder for the output Excel file
@@ -38,7 +37,22 @@ Example Usage:
 %end;
 %put NOTE: folder is set &folder;
 %put NOTE: out_folder is set &out_folder;
-filename _log_  "&folder.\*.&extension" ;
+
+/*Change made by Dave Kestner*/
+/*New Macro variable*/
+%if %sysfunc(find(upcase(&sysscp.), WIN)) gt 0 %then %do;
+    %let slash = \;
+%end;
+%else %do;
+    %let slash = /;
+%end;
+/*End of change made by Dave Kestner*/
+
+
+/*Change made by Dave Kestner*/
+/*filename _log_  "&folder.\*.&extension" ;*/
+filename _log_  "&folder.&slash.*.&extension" ; 
+/*End of change made by Dave Kestner*/
 data term;
 length term $400.;
 key=1;
@@ -132,8 +146,11 @@ length fname _fname $200. cate $10. record term $400.  hit $500.;
 		h1.definedata("term");
 		h1.definedone();
 	end;
-	fname=kreverse(kscan(kreverse(_fname),1,"\"));
-	
+    /*Change made by Dave Kestner*/
+	/*fname=kreverse(kscan(kreverse(_fname),1,"\"));*/
+	fname=kreverse(kscan(kreverse(_fname),1,"&slash."));
+	/*End of change made by Dave Kestner*/
+
 	_record = strip(record);
 _record = compress(_record,'0A'X || '0D'X|| '0C'X);
 	if substr(_record, 1 , 5 ) = 'ERROR'     then cate ='ERROR';
@@ -167,7 +184,10 @@ data log;
 	run;
 %end;
 ods excel
-file="&out_folder\LogCheck_Result.xlsx";
+/*Change made by Dave Kestner*/
+/*file="&out_folder\LogCheck_Result.xlsx";*/
+file="&out_folder.&slash.LogCheck_Result.xlsx";
+/*End of change made by Dave Kestner*/
 proc print data=log noobs label;
 run;
 ods excel close;
