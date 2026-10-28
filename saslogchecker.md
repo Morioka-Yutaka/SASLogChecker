@@ -9,17 +9,17 @@
 ### Version information:
   
 - Package: SASLogChecker
-- Version: 0.1.2
-- Generated: 2025-10-20T05:25:58
+- Version: 0.2.0
+- Generated: 2026-10-28T15:25:46
 - Author(s): Yutaka Morioka(sasyupi@gmail.com)
 - Maintainer(s): Yutaka Morioka(sasyupi@gmail.com)
 - License: MIT
-- File SHA256: `F*AB69997B6A1E443924ECB273458D87455A1D2AC02FE4BAD50C631921F95E2E38` for this version
-- Content SHA256: `C*170B1FD8FCC660404EFBEE59FE9633B7B11C4E49CF55D6FD96C5268AFA511894` for this version
+- File SHA256: `F*D3CB3DCF4824C805CB94FA6BEA8BEFE82DEAB0A5F22306AE80104C54ACD2FD51` for this version
+- Content SHA256: `C*93841F2BB11B5A31BAF8ED81AFCF3973EDE251F5B0AB19345DAC134E07C43032` for this version
   
 ---
  
-# The `SASLogChecker` package, version: `0.1.2`;
+# The `SASLogChecker` package, version: `0.2.0`;
   
 ---
  
@@ -110,6 +110,7 @@ License : MIT
 
 Macro Name : logchk2directory
 Authoer: Yutaka Morioka
+Contributors:Dave Kestner
 License : MIT
 Overview:
 Scans all log files (*.log or specified extension) in a
@@ -122,10 +123,8 @@ or UTF-8.
 garbled text and ensure matching regardless of session
 encoding.
 Important Notes:
-- This macro is designed for Windows only.
-The file path delimiter "\" and path handling logic
-(e.g., KSCAN, KREVERSE) assume a Windows environment.
-It will not work as-is on Unix/Linux/MacOS systems.
+- This macro is designed for Windows and Linux .
+
 Parameters:
 folder     = Path to the folder containing log files
 out_folder = Path to the folder for the output Excel file
@@ -141,7 +140,7 @@ Example Usage:
  
 # License <a name="license"></a> ######
  
-Copyright (c) [2025]  [Yutaka Morioka]
+Copyright (c) [2026]  [Yutaka Morioka]
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
